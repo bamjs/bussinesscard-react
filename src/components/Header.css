@@ -1,0 +1,79 @@
+h2,
+h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 25px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+div {
+    background-color: black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: -3px;
+}
+
+h4 {
+    margin-top: 4px;
+    color: #FFFFFF;
+    margin-top: 0%;
+    /* Frontend Developer */
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #F3BF99;
+}
+
+h6 {
+    /* laurasmith.website */
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 8px;
+    color: #F5F5F5;
+    margin-top: -5%;
+}
+.header--buttons{
+    display: flex;
+    gap: 8%;
+    flex-direction: row;
+    align-items: center;
+    /* width: auto; */
+    /* align-items:space-between; */
+}
+.button{
+/* padding: 9px 13px 9px 11px; */
+background: #FFFFFF;
+/* gray/300 */
+border: 1px solid #D1D5DB;
+/* shadow/sm */
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+display: contents;
+align-items: center;
+display: flex;
+width: 120px;
+height: 30px;
+/* gap: 8%; */
+}
+
+.header--text{
+/* font-family: 'Inter'; */
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+padding-left: 10%;
+/* line-height: 16px; */
+/* margin-left: 5%; */
+/* identical to box height, or 114% */
+/* gray/700 */
+color: #374151;
+
+}
